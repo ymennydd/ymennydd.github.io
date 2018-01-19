@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="clearfix">
+    <div class="container">
+        <div class="header">
+            <div class="logo"><a href="index.html"></a></div>
+            <ul class="menu p-menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+        <hr>
+        <h1>Контакты</h1>
+        <h2 class="contacts">Форма обратной связи</h2>
+
+        <form action="" method="post">
+            <label class="required">Представьтесь: <br>
+        <input type="text" name="name" id="name-field" placeholder="Как к Вам обращаться"></label><br><br>
+            <label class="required">Ваш логин (email): <br>
+        <input type="email" name="login" id="login-field" placeholder="Введите Email"></label><br><br>
+            <label class="required">Тема: <br>
+        <input type="text" name="theme" id="theme-field" placeholder="Укажите тему сообщения"></label><br><br>
+            <label class="required">Запишите свой вопрос или оставьте отзыв:  <br>
+        <textarea name="comment" id="comment-field" rows="5" cols="35"></textarea></label>
+            <br><br>
+            <label>
+        <input type="checkbox" name="subscribe" id="subscribe-field" checked>
+       Подписаться на рассылку</label>
+            <br> <br>
+            <input type="submit" value="Отправить" class="btn btn-success"> <input type="reset" value="Очистить" class="btn"><br><br></form>
+        <div class="empty"></div>
+        <h2 class="contacts">Центральный офис</h2>
+        <div class="cont">
+            <p class="office"><strong>Контактный телефон:<br></strong> +0 000 000 00</p>
+            <p class="office"><strong>Адрес:<br></strong> Россия, г. Санкт-Петербург, Средний проспект В.О., 88</p>
+            <p class="office"><strong>Email:</strong> <a href="mailto:info@000.ru">info@000.ru</a></p>
+        </div>
+        <div class="map">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3886c37ca083bf843656a09ee25d756313054c329eac68f1b28277ecfccf0c05&amp;width=100%25&amp;height=450&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+        <div class="empty"></div>
+        <div class="clr"></div>
+    </div>
+
+    <footer>
+        <div class="bottom-nav ml">
+            <div class="row">
+                <div class="col">
+                    <h6>
+                        <a href="#">Как нас найти</a>
+                    </h6>
+                    <p>Санкт-Петербург, василеостровский район, Средний проспект В.О., д 88 лит А</p>
+                    <p>Телефон для связи: 812-0000000</p>
+                    <p>Email: info@000.com</p>
+                </div>
+                <div class="col info">
+                    <h6>
+                        <a href="#">Карта сайта</a>
+                    </h6>
+                    <ul class="menu-bottom info-col fcol">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="catalog.html">Каталог</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="col col-email">
+                    <h6>
+                        <a href="#">Оставайтесь на связи!</a>
+                    </h6>
+                    <p>Подпишитесь, чтобы первыми узнавать о наших последних новостях, новинках и специальных предложениях только для подписчиков.</p>
+                    <form action="#" class="subscribe">
+                        <div class="mail">
+                            <input type="email" placeholder="your email address">
+                            <a href="mailto:info@000.com" id="plane"><img src="image/plane.png" alt='plane'></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright ml">
+            <p class="copy"> &copy; Все права защищены - Антен 2018</p>
+            <div class="social">
+                <a href="https://www.facebook.com/" target="_blank"><img src="image/facebook.png" alt="facebook"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="image/twitter.png" alt="twitter"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
