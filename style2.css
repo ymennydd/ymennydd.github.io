@@ -23,7 +23,7 @@ body {
     background-color: #ffb79d;
 }
 
-.hello {margin: 3200px;}
+.foo {background-color: #ccc;}
 
 .container,
 footer {
