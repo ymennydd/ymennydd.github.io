@@ -1,4 +1,4 @@
-print ("Hello world")
-print ("Hello my friend")
-print ("Hello my dear friend")
-print ("Hello my one and only friend")
+print ("Hello world;")
+print ("Hello my friend;")
+print ("Hello my dear friend;")
+print ("Hello my one and only friend;")
